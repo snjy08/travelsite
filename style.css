@@ -1,0 +1,116 @@
+.main-div {
+    text-align: center;
+    align-items: center;
+    height: 854px;
+}
+
+.innerdiv1 {
+    width: 60%;
+    color: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 280px;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    display: flex;
+}
+.col-4{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+/* Footer Styles */
+.black-footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h2,
+.social-media h2,
+.copyright p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.flow{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aqua;
+    text-align: center;
+    justify-content: center;
+}
+.scndpic{
+    text-align: center;
+    align-items: center;
+    height: 856px;
+}
+.scndpic1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
+    color:black;
+    position: absolute;
+    top: 1600px;
+    left: 280px;
+}
+.carousel{
+    background-color:transparent;
+}
+@media screen and (max-width : 700px) {
+    body{
+        background-color: aqua;
+    }
+    .row{
+        width : 90%;
+        margin : 0 auto;
+        flex-wrap: wrap;
+        height:2000px;
+    }
+    .col-4{
+        height: 400px;
+        width: 400px;
+    }
+    *{
+        overflow-x: hidden ;
+    }
+    .footer-content{
+        width : 90%;
+        margin : 0 auto;
+        flex-wrap: wrap;
+        height:2000px
+    }
+    .flow{
+        width : 90%;
+        margin : 0 auto;
+        flex-wrap: wrap;
+        height:2000px
+    }
+    .scndpic{
+        height: 400px;
+        width: 400px;
+    }
+}
